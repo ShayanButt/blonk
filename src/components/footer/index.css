@@ -1,0 +1,37 @@
+footer {
+  background-color: #121212;
+  color: #c0c0c0;
+}
+.footerLogo {
+  height: 30px;
+}
+.footer-middle-row {
+  flex-direction: column;
+  align-content: center;
+}
+.footerDropdown button {
+  color: white;
+}
+.footer-first-row {
+  border-bottom: 1px solid #c0c0c0;
+  /* padding: 15px 0px; */
+}
+.socialMediaIcons {
+  border-left: 1px solid #c0c0c0;
+  border-right: 1px solid #c0c0c0;
+}
+.footer-last-row {
+  border-top: 1px solid #c0c0c0;
+}
+.dropdown-toggle {
+  background-color: #444444;
+}
+.downloadAppsImg img {
+  width: 150px;
+}
+.centerText {
+  align-self: center;
+}
+.icons {
+  margin-right: 14%;
+}

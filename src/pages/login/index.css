@@ -1,0 +1,80 @@
+.container_wide {
+  background-color: #fafafa;
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+.form {
+  background-color: #ffffff;
+  border-bottom: 1px solid gray;
+}
+.form_field {
+  background-color: white;
+}
+.btn-form {
+  background-color: #022653;
+  color: white;
+  border-radius: 15px;
+  border: 0;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 12px;
+}
+.breadcrumb {
+  background-color: unset !important;
+  padding: 10px 1rem !important;
+  margin-bottom: 0px;
+}
+.bread {
+  background-color: #1b828b !important;
+  list-style: none;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.breadcrumb-item a {
+  color: white;
+  text-decoration: none;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: 0.5rem;
+  color: #fff !important;
+  content: var(--bs-breadcrumb-forward, ">") !important;
+}
+.left {
+  padding-left: 0 !important;
+}
+.left p {
+  margin-bottom: 0 !important;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.form_pass {
+  margin-bottom: 0 !important;
+  font-weight: bold;
+}
+.form_field label {
+  font-weight: bold;
+}
+.input-group-append {
+  position: absolute;
+  right: 10px;
+  z-index: 1;
+}
+.input_field {
+  z-index: 0;
+}
+@media screen and (max-width: 480px) {
+  .left p {
+    padding-top: 10px;
+  }
+  .bread {
+    padding-left: 7px;
+  }
+}
